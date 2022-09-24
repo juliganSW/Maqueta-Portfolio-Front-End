@@ -1,0 +1,208 @@
+
+*{
+    font-family: 'Rampart One', cursive;
+}
+
+/* Barra de Navegacion*/
+
+nav.navbar.navbar-expand-lg.bg-secondary.fixed-top{
+
+background: #00d4ff;
+background: linear-gradient(0deg, #00d4ff 0%, #2418d6 22%, #0a1077 81%, #00d4ff 100%);
+height:15%;
+}
+
+
+/* Banner*/
+section.banner{
+    
+    background-image:  url(../img/programador.jpg\ \(1\).jpg);
+    background-size: 100%;
+    height: 95vh;
+   
+    background-repeat:no-repeat;
+    position:relative;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -moz-background-size:cover ;
+    -ms-background-size:cover;
+    
+}
+
+h3.welcome {
+    padding-top: 8rem;
+    color: #ffffff;
+    font-size: 5rem;
+    text-shadow: #ffffff 0.1em 0.1em 0.1em;
+}
+h1.welcome {
+font-size: 3rem;
+text-shadow: #ffffff 0.1em 0.1em 0.1em;
+}
+h2.welcome {
+    font-size: 2rem;
+    text-shadow: #ffffff 0.1em 0.1em 0.1em;
+}
+
+
+/* Redes Sociales*/
+
+i.fa-brands.fa-github.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-linkedin-in.fa-2xl,
+i.fa-solid.fa-user-astronaut.fa-2xl,
+i.fa-solid.fa-user-check.fa-2xl {
+    color: #fff;
+}
+
+ 
+ i.fa-brands.fa-github.fa-2xl:hover {
+    color:#00c0a6;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover {
+    color:   #e64077;
+}
+i.fa-brands.fa-linkedin-in.fa-2xl:hover {
+    color: #00a2ff;
+}
+i.fa-solid.fa-user-astronaut.fa-2xl:hover {
+    color:#7fc1ff;
+}
+i.fa-solid.fa-user-check.fa-2xl:hover {
+color:#7fc1ff;
+}
+ul.list-group{
+    --bs-list-group-bg: transparent;
+} 
+
+/*ventanas Modales*/
+.modal-header.bg {
+   background-color: #0077c0
+}
+main {
+    background-image: url(../img/fondo-gris-pintado_53876-94041.png);
+}
+
+
+/* Secciones*/
+
+section.about.border.border-dark { 
+    margin-top:auto;
+    color:#ffffff;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    
+}
+
+/* foto de perfil */
+
+.rounded-circle.img-fluid.border.border-dark {
+   position:absolute;
+   Z-index:1;
+   width:14rem !important;
+         
+   margin-top: -7rem;
+   margin-left: 4rem;
+transform:rotate(-20deg);
+background-color:#000000
+}
+
+section.experience.border.border-dark {
+
+    color:#000000;
+    background-color: #0077c0;
+    border-radius:3rem;
+    box-shadow: 0.625rem 0.313rem 0.313rem #000000;
+    margin:0.8rem;
+
+   
+} 
+section.education.border.border-dark {
+    
+    color:#ffffff;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border-radius:3rem;
+    box-shadow: 0.625rem 0.313rem 0.313rem #000000;
+    margin:0.8rem; 
+    
+}
+
+
+section.skills.border.border-dark{
+    color:#000000;
+    
+    background-color: #0077c0;
+    border-radius:3rem;
+    box-shadow: 0.625rem 0.313rem 0.313rem #000000;
+    margin:0.8rem; 
+    
+}
+.progress-bar.progress-bar-striped.progress-bar-animated {
+    background: #22c33f;
+background: linear-gradient(0deg, #22c33f 26%, #2dfd30 86%); 
+    
+}
+
+section.projects.border.border-dark{
+    
+    color:#ffffff;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border-radius:3rem;
+    box-shadow: 0.625rem 0.313rem 0.313rem #000000;
+    margin:0.8rem; 
+   }
+
+   .btn-right {
+    color: #ffffff;
+    display: flex;
+    align-self: flex-end;
+    margin-top:2rem;
+    margin-left:5rem;
+ }
+
+/* Footer*/
+
+footer {
+    background: #00d4ff;
+    background: linear-gradient(0deg, #00d4ff 0%, #2418d6 22%, #0a1077 81%, #00d4ff 100%);
+    height:3rem;
+    margin-top:0.8rem; 
+    color: #ffffff;
+}
+
+
+.dashboard{
+  height:90.3vh;
+    margin-top:12rem;
+}
+.list-group.bg {
+    background-color: #0077c0;
+}
+.vertical {
+    
+    font-size: 1.2rem;
+
+}
+.vinculo{
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+    
+.btn-outline-primary {
+    --bs-btn-hover-bg:#0077c0  !important;
+}
+
+
+.col-1.save.button{
+    margin-top: 2rem;
+}
+.usuario {
+     height: 90.3vh;
+}
+.col-8.form-user {
+    margin-top:18%;
+}
+
+    
+
